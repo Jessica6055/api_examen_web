@@ -1,0 +1,60 @@
+/* Estilo para el cuerpo de la página */
+body {
+  background-color:antiquewhite; /* Fondo petróleo */
+  color:black; /* Texto blanco */
+  font-family:Georgia; /* Fuente Times New Roman */
+  margin: 0; /* Elimina el margen predeterminado */
+  padding: 0; /* Elimina el espacio interno predeterminado */
+}
+
+/* Estilo para el encabezado */
+header {
+  background-color:rgb(234, 210, 235); /* Fondo acuamarina */
+  padding: 20px; /* Espaciado interior */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilo para el título en el encabezado */
+h1 {
+  margin: 0; /* Elimina el margen superior e inferior del título */
+  font-size: 3rem; /* Tamaño de fuente grande */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  color:black; /* Texto blanco */
+}
+
+/* Estilo para la tabla */
+table {
+  width: 100%; /* Ancho completo de la página */
+  border-collapse: collapse; /* Colapsar bordes de la tabla */
+  margin: 20px 0; /* Espaciado exterior arriba y abajo */
+  text-align: center;
+}
+
+/* Estilo para las celdas de la tabla */
+th, td {
+  padding: 15px; /* Espaciado interior */
+  text-align: left; /* Alineación del texto a la izquierda */
+  border-bottom: 1px solid #bbb; /* Línea inferior gris petróleo */
+}
+
+/* Estilo para la fila de encabezado de la tabla */
+th {
+  background-color: #2f6583; /* Fondo menta */
+  color:black; /* Texto blanco */
+  text-align: center;
+}
+
+/* Estilo para el pie de página */
+footer {
+  background-color: #2f6583; /* Fondo acuamarina */
+  padding: 10px; /* Espaciado interior */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilo para el texto en el pie de página */
+footer p {
+  margin: 0; /* Elimina el margen superior e inferior del texto */
+  font-size: 1rem; /* Tamaño de fuente normal */
+  color:black; /* Texto blanco */
+}
